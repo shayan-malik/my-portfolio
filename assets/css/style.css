@@ -1,0 +1,356 @@
+html{
+    scroll-behavior: smooth;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'poppins', sans-serif;
+    background-color: black;
+    color: white;
+}
+
+.logo h1 a{
+    text-decoration: none;
+    color: rgb(13, 70, 255);
+    font-style: italic;
+    font-weight: 400;
+    text-shadow: 2px 2px 3px rgb(14, 8, 95);
+}
+
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    text-decoration: underline;
+    color: rgb(13, 70, 255);
+    transition: 0.8s ease-in-out;
+}
+
+ul{
+    display: flex;
+    gap: 40px;
+    list-style: none;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 30px;
+    position: sticky;
+    top: 0;
+    background-color: black;
+}
+
+.main{
+    background-image: url('../images/side-view-man-living-as-digital-nomad_23-2151205425.avif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: overlay;
+    background-color: #00000080;
+    height: 100vh;
+}
+
+.sec{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    font-size: 35px;
+}
+
+.main button{
+    background-color: rgb(13, 70, 255);
+    color: white;
+    padding: 15px 40px;
+    border-radius: 10px;
+    border: none;
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.main button:hover{
+    background-color: white;
+    transition: 0.8s ease-in-out;
+}
+.main button:hover a{
+    background-color: white;
+    color: rgb(13, 70, 255);
+    transition: 1s ease-in-out;
+}
+
+
+
+.main button a{
+    color: white;
+}
+
+.sec-h{
+    padding: 100px 0px 70px 0px;
+    text-align: center;
+    font-size: 25px;
+}
+
+.about-sec{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+
+
+}
+
+.about-sec .left{
+    width: 40%;
+}
+
+.about-sec .left p{
+    padding-bottom: 30px;
+}
+
+.about-sec .right{
+    width: 40%;
+}
+
+.right img{
+    width: 100%;
+}
+
+span{
+    color: gray;
+}
+
+.education-sec{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    padding: 0px 40px;
+}
+
+.s1 .same, .s2 .same, .s3 .same {
+    border-bottom: 2px solid rgb(13, 70, 255); ;
+    padding-bottom: 30px;
+}
+
+.s1 h3, .s2 h3, .s3 h3{
+    padding-top: 30px;
+    padding-bottom: 5px;
+}
+
+.s1 p, .s2 p, .s3 p{
+    padding-bottom: 5px;
+}
+
+.skills-sec{
+    display: flex;
+    justify-content: space-around;
+}
+
+progress{
+    width: 500px;
+}
+
+.exp-sec{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    width: 60%;
+}
+
+.exp-sec span{
+    text-align:right;
+}
+.exp-sec .left{
+    width:30%;
+}
+
+.exp-sec .left .g1{
+    padding-bottom: 200px;
+}
+.exp-sec .left .g2{
+    padding-bottom: 100px;
+}
+.exp-sec .left .g3{
+    padding-bottom: 160px;
+}
+
+.border{
+    border: 1px solid rgb(13, 70, 255);
+}
+
+.exp-sec .right{
+    width: 30%;
+}
+
+.exp-sec .right .g5{
+    padding-bottom: 40px;
+}
+.exp-sec .right .g6{
+    padding-bottom: 210px;
+}
+.exp-sec .right .g7{
+    padding-bottom: 50px;
+}
+
+
+.pro-sec{
+    width: 70%;
+    margin: 0 auto;
+}
+
+.pro-sec p{
+    padding-top: 5px;
+}
+
+.pro-sec .top{
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 2px solid rgb(13, 70, 255) ;
+    padding-bottom: 50px;
+}
+
+.pro-sec .top .set{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-right: 2px solid rgb(13, 70, 255);
+    padding: 50px 0px;
+    padding-right: 65px;
+}
+
+.pro-sec .bottom{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+
+}
+
+.pro-sec .bottom .set{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-right: 2px solid rgb(13, 70, 255);
+    padding: 50px 0px;
+    padding-right: 65px;
+
+}
+
+.port-sec{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    gap: 30px;
+}
+
+.port-sec .left , .port-sec .right{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.cont-sec{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.cont-sec .left .two input{
+    display: block;
+}
+
+input{
+    width: 200px;
+    height: 40px;
+    padding-left: 15px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    border: none;
+}
+
+
+.left .gap{
+    margin-right: 15px;
+}
+.two .width{
+    width: 435px;
+}
+textarea{
+    padding-top: 20px;
+    padding-left: 15px;
+    width: 435px;
+    height: 200px;
+    border-radius: 10px;
+    border: none;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.cont-sec .left button{
+    background-color: rgb(13, 70, 255);
+    color: white;
+    width: 450px;
+    height: 40px;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+}
+
+.cont-sec .left button:hover{
+    background-color: white;
+    transition: 1s ease-in-out;
+}
+
+.cont-sec .left button:hover a{
+    background-color: white;
+    color: rgb(13, 70, 255);
+    transition: 1s ease-in-out;
+}
+
+.cont-sec .left button a{
+    color: white;
+    text-decoration: none;
+}
+
+.cont-sec .right img{
+    width: 10%;
+    padding-right: 10px;
+    margin-bottom: -5px;
+}
+
+.cont-sec .right p{
+    padding-bottom: 60px;
+}
+
+.right a img{
+    width: 8%;
+    padding-right: 10px;
+}
+
+footer{
+    margin-top: 100px;
+    padding: 15px 0px;
+    text-align: center;
+    background-color: rgb(13, 70, 255);
+}
+i{
+    font-style: normal;
+    font-size: 18px;
+    padding-left: 2px;
+
+}
+i a{
+    color: white;
+    text-decoration: none;
+}
+
