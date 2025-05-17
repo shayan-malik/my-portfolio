@@ -1,19 +1,19 @@
-html{
+html {
     scroll-behavior: smooth;
 }
 
-*{
+* {
     padding: 0;
     margin: 0;
 }
 
-body{
+body {
     font-family: 'poppins', sans-serif;
     background-color: black;
     color: white;
 }
 
-.logo h1 a{
+.logo h1 a {
     text-decoration: none;
     color: rgb(13, 70, 255);
     font-style: italic;
@@ -22,24 +22,24 @@ body{
 }
 
 
-nav ul li a{
+nav ul li a {
     color: white;
     text-decoration: none;
 }
 
-nav ul li a:hover{
+nav ul li a:hover {
     text-decoration: underline;
     color: rgb(13, 70, 255);
     transition: 0.8s ease-in-out;
 }
 
-ul{
+ul {
     display: flex;
     gap: 40px;
     list-style: none;
 }
 
-header{
+header {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -49,7 +49,7 @@ header{
     background-color: black;
 }
 
-.main{
+.main {
     background-image: url('../images/side-view-man-living-as-digital-nomad_23-2151205425.avif');
     background-repeat: no-repeat;
     background-size: cover;
@@ -59,7 +59,7 @@ header{
     height: 100vh;
 }
 
-.sec{
+.sec {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -68,7 +68,7 @@ header{
     font-size: 35px;
 }
 
-.main button{
+.main button {
     background-color: rgb(13, 70, 255);
     color: white;
     padding: 15px 40px;
@@ -80,11 +80,12 @@ header{
     text-decoration: underline;
 }
 
-.main button:hover{
+.main button:hover {
     background-color: white;
     transition: 0.8s ease-in-out;
 }
-.main button:hover a{
+
+.main button:hover a {
     background-color: white;
     color: rgb(13, 70, 255);
     transition: 1s ease-in-out;
@@ -92,17 +93,17 @@ header{
 
 
 
-.main button a{
+.main button a {
     color: white;
 }
 
-.sec-h{
+.sec-h {
     padding: 100px 0px 70px 0px;
     text-align: center;
     font-size: 25px;
 }
 
-.about-sec{
+.about-sec {
     display: flex;
     justify-content: space-between;
     width: 80%;
@@ -111,116 +112,128 @@ header{
 
 }
 
-.about-sec .left{
+.about-sec .left {
     width: 40%;
 }
 
-.about-sec .left p{
+.about-sec .left p {
     padding-bottom: 30px;
 }
 
-.about-sec .right{
+.about-sec .right {
     width: 40%;
 }
 
-.right img{
+.right img {
     width: 100%;
 }
 
-span{
+span {
     color: gray;
 }
 
-.education-sec{
+.education-sec {
     display: flex;
     justify-content: space-between;
     gap: 30px;
     padding: 0px 40px;
 }
 
-.s1 .same, .s2 .same, .s3 .same {
-    border-bottom: 2px solid rgb(13, 70, 255); ;
+.s1 .same,
+.s2 .same,
+.s3 .same {
+    border-bottom: 2px solid rgb(13, 70, 255);
+    ;
     padding-bottom: 30px;
 }
 
-.s1 h3, .s2 h3, .s3 h3{
+.s1 h3,
+.s2 h3,
+.s3 h3 {
     padding-top: 30px;
     padding-bottom: 5px;
 }
 
-.s1 p, .s2 p, .s3 p{
+.s1 p,
+.s2 p,
+.s3 p {
     padding-bottom: 5px;
 }
 
-.skills-sec{
+.skills-sec {
     display: flex;
     justify-content: space-around;
 }
 
-progress{
+progress {
     width: 500px;
 }
 
-.exp-sec{
+.exp-sec {
     display: flex;
     justify-content: space-evenly;
     margin: 0 auto;
     width: 60%;
 }
 
-.exp-sec span{
-    text-align:right;
-}
-.exp-sec .left{
-    width:30%;
+.exp-sec span {
+    text-align: right;
 }
 
-.exp-sec .left .g1{
-    padding-bottom: 200px;
-}
-.exp-sec .left .g2{
-    padding-bottom: 100px;
-}
-.exp-sec .left .g3{
-    padding-bottom: 160px;
-}
-
-.border{
-    border: 1px solid rgb(13, 70, 255);
-}
-
-.exp-sec .right{
+.exp-sec .left {
     width: 30%;
 }
 
-.exp-sec .right .g5{
+.exp-sec .left .g1 {
+    padding-bottom: 200px;
+}
+
+.exp-sec .left .g2 {
+    padding-bottom: 100px;
+}
+
+.exp-sec .left .g3 {
+    padding-bottom: 160px;
+}
+
+.border {
+    border: 1px solid rgb(13, 70, 255);
+}
+
+.exp-sec .right {
+    width: 30%;
+}
+
+.exp-sec .right .g5 {
     padding-bottom: 40px;
 }
-.exp-sec .right .g6{
+
+.exp-sec .right .g6 {
     padding-bottom: 210px;
 }
-.exp-sec .right .g7{
+
+.exp-sec .right .g7 {
     padding-bottom: 50px;
 }
 
 
-.pro-sec{
+.pro-sec {
     width: 70%;
     margin: 0 auto;
 }
 
-.pro-sec p{
+.pro-sec p {
     padding-top: 5px;
 }
 
-.pro-sec .top{
+.pro-sec .top {
     display: flex;
     justify-content: space-around;
-    border-bottom: 2px solid rgb(13, 70, 255) ;
+    border-bottom: 2px solid rgb(13, 70, 255);
     padding-bottom: 50px;
 }
 
-.pro-sec .top .set{
+.pro-sec .top .set {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -229,14 +242,14 @@ progress{
     padding-right: 65px;
 }
 
-.pro-sec .bottom{
+.pro-sec .bottom {
     display: flex;
     justify-content: space-around;
     padding-top: 50px;
 
 }
 
-.pro-sec .bottom .set{
+.pro-sec .bottom .set {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -246,30 +259,31 @@ progress{
 
 }
 
-.port-sec{
+.port-sec {
     display: flex;
     justify-content: center;
     width: 100%;
     gap: 30px;
 }
 
-.port-sec .left , .port-sec .right{
+.port-sec .left,
+.port-sec .right {
     display: flex;
     flex-direction: column;
     gap: 30px;
 }
 
-.cont-sec{
+.cont-sec {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
 }
 
-.cont-sec .left .two input{
+.cont-sec .left .two input {
     display: block;
 }
 
-input{
+input {
     width: 200px;
     height: 40px;
     padding-left: 15px;
@@ -279,13 +293,15 @@ input{
 }
 
 
-.left .gap{
+.left .gap {
     margin-right: 15px;
 }
-.two .width{
+
+.two .width {
     width: 435px;
 }
-textarea{
+
+textarea {
     padding-top: 20px;
     padding-left: 15px;
     width: 435px;
@@ -296,7 +312,7 @@ textarea{
     font-size: 16px;
 }
 
-.cont-sec .left button{
+.cont-sec .left button {
     background-color: rgb(13, 70, 255);
     color: white;
     width: 450px;
@@ -306,51 +322,142 @@ textarea{
     border-radius: 10px;
 }
 
-.cont-sec .left button:hover{
+.cont-sec .left button:hover {
     background-color: white;
     transition: 1s ease-in-out;
 }
 
-.cont-sec .left button:hover a{
+.cont-sec .left button:hover a {
     background-color: white;
     color: rgb(13, 70, 255);
     transition: 1s ease-in-out;
 }
 
-.cont-sec .left button a{
+.cont-sec .left button a {
     color: white;
     text-decoration: none;
 }
 
-.cont-sec .right img{
+.cont-sec .right img {
     width: 10%;
     padding-right: 10px;
     margin-bottom: -5px;
 }
 
-.cont-sec .right p{
+.cont-sec .right p {
     padding-bottom: 60px;
 }
 
-.right a img{
+.right a img {
     width: 8%;
     padding-right: 10px;
 }
 
-footer{
+footer {
     margin-top: 100px;
     padding: 15px 0px;
     text-align: center;
     background-color: rgb(13, 70, 255);
 }
-i{
+
+i {
     font-style: normal;
     font-size: 18px;
     padding-left: 2px;
 
 }
-i a{
+
+i a {
     color: white;
     text-decoration: none;
 }
 
+
+@media (max-width: 576px) {
+
+    body {
+        padding: 0px 20px;
+    }
+
+    header {
+        display: block;
+        padding: 10px 0px 10px 0px;
+    }
+
+    .logo h1{
+        font-size: 18px;
+    }
+
+    ul {
+        gap: 8px;
+    }
+
+    nav ul li a {
+        font-size: 8px;
+    }
+
+    .main {
+        background-size: contain;
+        height: 203px;
+    }
+
+    .main .sec {
+        font-size: 14px;
+        height: 247px;
+    }
+
+    .main button {
+        background-color: rgb(13, 70, 255);
+        color: white;
+        padding: 5px 11px;
+        border-radius: 10px;
+        border: none;
+        margin-top: 4px;
+        font-size: 12px;
+        font-weight: bold;
+        text-decoration: underline;
+    }
+
+    .sec-h {
+        padding: 50px 0px 25px 0px;
+        text-align: center;
+        font-size: 20px;
+    }
+
+    .about-sec {
+        display: block;
+        justify-content: space-between;
+        width: 100%;
+        margin: 0px 0px;
+    }
+
+    .about-sec .left {
+        width: 100%;
+    }
+
+    .about-sec .right {
+        width: 100%;
+        padding-top: 20px;
+    }
+
+    .about-sec .left p {
+    padding-bottom: 12px;
+    
+}
+
+    .education-sec {
+    display: block;
+    padding: 0px 0px;
+}
+
+.skills-sec{
+    display: block;
+}
+
+progress{
+    width: 86%;
+}
+
+
+
+}
