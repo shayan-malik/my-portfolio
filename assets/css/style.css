@@ -384,16 +384,16 @@ i a {
         padding: 10px 0px 10px 0px;
     }
 
-    .logo h1{
-        font-size: 18px;
+    .logo h1 {
+        font-size: 24px;
     }
 
     ul {
-        gap: 8px;
+        gap: 10px;
     }
 
     nav ul li a {
-        font-size: 8px;
+        font-size: 11px;
     }
 
     .main {
@@ -419,7 +419,7 @@ i a {
     }
 
     .sec-h {
-        padding: 50px 0px 25px 0px;
+        padding: 50px 0px 35px 0px;
         text-align: center;
         font-size: 20px;
     }
@@ -441,21 +441,186 @@ i a {
     }
 
     .about-sec .left p {
-    padding-bottom: 12px;
-    
-}
+        padding-bottom: 12px;
+
+    }
 
     .education-sec {
-    display: block;
-    padding: 0px 0px;
+        display: block;
+        padding: 0px 0px;
+    }
+
+    .skills-sec {
+        display: block;
+    }
+
+    progress {
+        width: 86%;
+    }
+
+    .exp-sec{
+        display: block;
+        width: 100%;
+    }
+
+    .exp-sec .left {
+    width: 100%;
 }
 
-.skills-sec{
+.exp-sec .left .g1{
+    padding-bottom: 30px;
+}
+
+.exp-sec .left .g2 {
+    padding-bottom: 30px;
+}
+
+.exp-sec .left .g3 {
+    padding-bottom: 35px;
+}
+
+.exp-sec .left .g4 {
+    padding-bottom: 30px;
+}
+
+.exp-sec .right {
+    width: 100%;
+}
+
+.exp-sec .right .g5 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.exp-sec .right .g6 {
+    padding-bottom: 30px;
+}
+
+.exp-sec .right .g7 {
+    padding-bottom: 30px;
+}
+
+
+.pro-sec {
+    width: 100%;
+}
+
+.pro-sec .top {
+    display: block;
+    padding-bottom: 0px;
+    border: none;
+}
+
+.pro-sec .top .set {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 2px solid rgb(13, 70, 255);
+    padding: 30px 0px;
+    padding-right: 0px;
+    border-right: none;
+}
+
+
+.pro-sec .bottom {
+    display: block;
+    padding-top: 0px;
+}
+
+.pro-sec .bottom .set {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-right: none;
+    border-bottom: 2px solid rgb(13, 70, 255);
+    padding: 30px 0px;
+    padding-right: 0px;
+}
+
+.port-sec {
     display: block;
 }
 
-progress{
-    width: 86%;
+.port-sec .left, .port-sec .right{
+    gap: 20px;
+}
+
+
+.port-sec .center{
+    padding: 20px 0px;
+}
+.port-sec .center img {
+    width: 100%;
+}
+
+.cont-sec{
+    display: block;
+}
+
+.left .gap {
+    margin-right: 0px;
+}
+
+input {
+    width: 95%;
+    height: 35px;
+    padding-left: 15px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    border: none;
+}
+
+.two .width {
+    width: 95%;
+}
+
+textarea {
+    padding-top: 20px;
+    padding-left: 15px;
+    width: 95%;
+    height: 130px;
+    border-radius: 10px;
+    border: none;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.cont-sec .left button {
+    background-color: rgb(13, 70, 255);
+    color: white;
+    width: 100%;
+    height: 35px;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+}
+
+.cont-sec .right{
+    padding-top: 50px;
+    text-align: center;
+}
+
+.cont-sec .right img{
+    width: 7%;
+}
+
+.cont-sec .right p {
+    padding-bottom: 50px;
+}
+
+footer {
+    margin-top: 65px;
+    padding: 10px 0px;
+}
+
+footer p{
+    font-size: 13px;
+}
+
+i {
+    font-style: normal;
+    font-size: 14px;
+    padding-left: 0px;
 }
 
 
