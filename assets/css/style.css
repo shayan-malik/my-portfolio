@@ -132,6 +132,20 @@ span {
     color: gray;
 }
 
+
+
+.cv{
+    padding: 12px 20px;
+    border-radius: 5px;
+    background-color: rgb(13, 70, 255);
+    margin-top: 20px;
+    color: white;
+    border: none;
+}
+
+
+
+
 .education-sec {
     display: flex;
     justify-content: space-between;
