@@ -141,6 +141,11 @@ span {
     margin-top: 20px;
     color: white;
     border: none;
+
+}
+
+.cv:hover{
+    cursor: pointer;
 }
 
 
