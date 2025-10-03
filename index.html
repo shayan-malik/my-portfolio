@@ -34,7 +34,83 @@
                     <h2>HI, I AM SHAYAN MALIK</h2>
                 </div>
                 <div class="skill">
-                    <p>WEB DEVELOPER</p>
+
+
+
+
+
+                    <div class="typing-widget" id="typing-widget"></div>
+
+<style>
+.typing-widget {
+    font-family: 'Arial', sans-serif;
+    font-size: 38px;
+    color: #fff; /* White text */
+    border-right: 3px solid #fff; /* White cursor */
+    white-space: nowrap;
+    overflow: hidden;
+    display: inline-block;
+}
+
+/* Blinking cursor */
+.typing-widget::after {
+    content: '';
+    display: inline-block;
+    width: 3px;
+    height: 1em;
+    background-color: #fff; /* White cursor */
+    margin-left: 2px;
+    animation: blink 0.7s infinite;
+}
+
+@keyframes blink {
+    0%, 50%, 100% { opacity: 1; }
+    25%, 75% { opacity: 0; }
+}
+</style>
+
+<script>
+(function() {
+    const sectors = [
+        "WEB DEVELOPER",
+        "WEB DESIGNER"
+    ];
+
+    const el = document.getElementById("typing-widget");
+    let sectorIndex = 0;
+    let charIndex = 0;
+    let typingSpeed = 80;   // faster typing
+    let deletingSpeed = 50; // faster deleting
+    let delayBetweenWords = 1000; // shorter pause
+
+    function typeSector() {
+        if(charIndex < sectors[sectorIndex].length) {
+            el.textContent += sectors[sectorIndex].charAt(charIndex);
+            charIndex++;
+            setTimeout(typeSector, typingSpeed);
+        } else {
+            setTimeout(deleteSector, delayBetweenWords);
+        }
+    }
+
+    function deleteSector() {
+        if(charIndex > 0) {
+            el.textContent = sectors[sectorIndex].substring(0, charIndex - 1);
+            charIndex--;
+            setTimeout(deleteSector, deletingSpeed);
+        } else {
+            sectorIndex = (sectorIndex + 1) % sectors.length;
+            setTimeout(typeSector, typingSpeed);
+        }
+    }
+
+    typeSector();
+})();
+</script>
+<!-- Typing Animation End -->
+
+
+
                 </div>
                 <button><a href="#contact">Hire Me!</a></button>
             </div>
@@ -46,14 +122,9 @@
 
         <div class="about-sec">
             <div class="left">
-                <p>I am a Professiona Designer and Web developer. Consectetur an adipisi elita, sed do eiusmod tempor
-                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam quis nostrud.</p>
-                <span>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                    pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
-                    anim id est laborum. Sed ut perspi unde omnis iste natus error sit voluptatem accusantium doloremque
-                    lauda ntium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto
-                    beatae vitae dicta sunt explicabo. Nemo enim ipsam vo luptatem quia voluptas sit aspernatur aut odit
-                    aut fugit,</span>
+                <p>I am a passionate web developer with a solid understanding of HTML, CSS, and basic JavaScript. I have a keen interest in building clean, responsive, and user-friendly websites that provide a smooth experience across all devices. With every project I work on, I focus on writing neat code and improving both my technical and creative skills.</p>
+                <span>I am eager to expand my knowledge of modern web technologies, frameworks, and best practices to become a skilled front-end developer. My ultimate goal is to grow continuously, take on new challenges, and contribute to innovative digital solutions.</span>
+                <a href="./shayan-cv.pdf.pdf" download="Shayan-Malik-CV.pdf"><button class="cv">Download CV</button></a>
             </div>
 
             <div class="right">
